@@ -1,7 +1,17 @@
 {
   "company": {
     "name": "Green Vector Games",
-    "logo": "🎮"
+    "logo": "🎮",
+    "description": "Dreams you can play, stories you can live. Follow our adventures:",
+    "social": {
+      "steam": "https://store.steampowered.com/developer/GreenVectorGames_Dev",
+      "twitter": "https://x.com/greenvectorgame",
+      "discord": "https://discord.gg/MGNStc5Y55",
+      "youtube": "https://www.youtube.com/@GreenVectorGames",
+      "bluesky": "https://bsky.app/profile/greenvectorgames.bsky.social",
+      "tiktok": "https://www.tiktok.com/@greenvectorgames",
+      "reddit": "https://www.reddit.com/user/GreenVectorGames"
+    }
   },
   "sections": {
     "games": "Games",

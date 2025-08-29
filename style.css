@@ -178,3 +178,38 @@ ul li p strong {
     font-weight: 400;
     margin-left: 8px;
 }
+
+.company-info {
+    margin-bottom: 20px;
+    padding: 12px;
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.company-info p {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    color: var(--fg);
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-link {
+    color: var(--link);
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.social-link:hover {
+    color: var(--accent);
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}

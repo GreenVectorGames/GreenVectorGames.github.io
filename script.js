@@ -52,6 +52,19 @@ async function loadData() {
     `;
     upcomingList.appendChild(li);
   });
+
+  const companyDescription = document.getElementById("companyDescription");
+  companyDescription.textContent = data.company.description;
+
+  const socialLinks = document.getElementById("socialLinks");
+  for (const [name, url] of Object.entries(data.company.social)) {
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.textContent = name.charAt(0).toUpperCase() + name.slice(1);
+    a.className = "social-link";
+    socialLinks.appendChild(a);
+  }
 }
 
 loadData();
