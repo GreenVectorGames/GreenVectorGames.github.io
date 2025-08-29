@@ -1,0 +1,19 @@
+{
+  "company": {
+    "name": "Green Vector Games",
+    "logo": "🎮"
+  },
+  "sections": {
+    "games": "Games",
+    "upcoming": "Upcoming Games"
+  },
+  "games": [
+    {
+      "title": "Harvest Scream Demo",
+      "short": "Farm by day, fix by night. A first-person farming horror where peaceful labor collides with terrifying anomaly hunts after dark. Gather resources, survive the monsters, and uncover the truth behind the corrupted simulation.",
+      "release": "2025-08-25",
+      "slug": "harvestscream",
+      "image": "images/harvestscream.png"
+    }
+  ]
+}
