@@ -19,9 +19,9 @@
   },
   "games": [
     {
-      "title": "Harvest Scream Demo",
+      "title": "Harvest Scream",
       "short": "Harvest by day and survive the nightfall. In this 1 to 5 player co op horror you defend your farm with plushie alarms and light systems. Locate the Monster Nest Portal and use your shovel to crush the Heart of the darkness before your sanity breaks. Grab your friends and endure the harvest together!",
-      "release": "2025-08-25",
+      "release": "2026",
       "slug": "harvestscream",
       "image": "images/harvestscream-image.png"
     }
