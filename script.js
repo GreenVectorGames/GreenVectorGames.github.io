@@ -3,7 +3,7 @@ async function loadData() {
   const data = await res.json();
 
   const brand = document.querySelector(".brand");
-  brand.innerHTML = `<span class="brand-logo">${data.company.logo}</span> ${data.company.name}`;
+  brand.innerHTML = `<span class="brand-logo"></span> ${data.company.name}`;
 
   document.querySelector("section#games h2").textContent = data.sections.games;
   document.querySelector("section#upcoming h2").textContent = data.sections.upcoming;
